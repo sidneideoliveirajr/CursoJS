@@ -1,2 +1,3 @@
-# CursoJS
- Aulas desenvolvimento de JS
+# Curso de JavaScript
+    Aprendendo JavaScript
+
