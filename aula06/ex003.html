@@ -19,16 +19,35 @@
     <h1>Olá, mundo!</h1>
     <p>Já me livrei da maldição</p>
     <script>
+        //Funciona conforme a entrada se ela for real ou inteira
+        var n1 = Number(window.prompt('Digite um número: '))
+        var n2 = Number(window.prompt('Digite outro número: '))
+        var soma =  n1 + n2
+
+        //window.alert('A soma dos valores é ' + soma)
+        window.alert('A soma dos valores é  ${soma}')
+
         //Para nuḿeros inteiros var n1 = Number.parseInt(window.prompt('Digite um número: '))
         //Para nuḿeros inteiros var n2 = Number.parseInt(window.prompt('Digite outro número: '))
+
+        /*
+        Para valores inteiros
+        var n1 = Number.parseInt(window.prompt('Digite um número: '))    
+        var n2 = Number.parseInt(window.prompt('Digite outro número: '))
+        var soma =  n1 + n2
+        
+        Funciona conforme a entrada se ela for real ou inteira
         var n1 = Number.parseFloat(window.prompt('Digite um número: '))
         var n2 = Number.parseFloat(window.prompt('Digite outro número: '))
         var soma =  n1 + n2
+        */
+
+
+        /*window.alert('A soma dos valores é ' + soma)  Não funciona pois o + está como uma concatenação
+         (number + number) para adição
+         (string + string) para concatenação
+        window.alert('A soma dos valores é ' + String(soma))*/
         
-        //window.alert('A soma dos valores é ' + soma)  Não funciona pois o + está como uma concatenação
-        // (number + number) para adição
-        // (string + string) para concatenação
-        window.alert('A soma dos valores é ' + soma)
     </script>
 </body>
 </html>
