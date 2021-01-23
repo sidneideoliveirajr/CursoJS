@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>DPrimeiros passos com DOM</title>
+    <style>
+        body{
+          background: rgb(68, 125, 199);  
+          color: white;
+          font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
+    <div class = "msg">Clique em mim</div>
+    <script>
+            //Comando FEITOS 1
+            /*window.document.write('Olá, Mundo!')
+
+            window.document.write(window.navigator.appName) mostra qual navegador está acessando
+
+            window.document.write(window.document.URL) MOSTRA A URL*/
+
+
+            //Comandos FEITOS 2
+            /*
+            var corpo = window.document.body
+            corpo.style.background = 'black' 
+
+            var p1 = window.document.getElementsByTagName('p')[0]
+            p1.style.color = 'blue'
+            window.document.write('Está escrito assim Paragrafo[0]: ' + p1.innerText)*/
+
+            /*var p1 = window.document.getElementsByTagName('p')[1]
+            document.write(p1.innerHTML)*/
+
+
+            /* Selecionando por ID
+            var d = window.document.getElementById('msg')
+            d.style.background = 'green'
+            d.innerText = 'Estou aguardando...'*/
+
+            //Selecionando por Name
+            var d = window.document.querySelector('div.msg')
+            d.style.background = 'blue'
+
+    </script>
+</body>
+</html>
